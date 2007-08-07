@@ -152,6 +152,8 @@ I have included cherokee with both iocaching on and off. The out of the box sett
  * lighttpd 1.4.16 - 4884 reqs./sec.
  * apache 2.0.59 - 2924 reqs./sec.
 
+http://www.cherokee-project.com/images/benchmark1.png
+
 === small static file test w/o keepalive ===
  * cherokee 0.6.0b863 w/ iocache - 2182 reqs./sec.
  * cherokee 0.6.0b863 w/o iocache - 1874 reqs./sec.
@@ -164,6 +166,8 @@ I have included cherokee with both iocaching on and off. The out of the box sett
  * lighttpd 1.4.16 - 106 reqs./sec.
  * apache 2.0.59 - 94 reqs./sec.
 
+http://www.cherokee-project.com/images/benchmark2.png
+
 === large static file test w/o keepalive ===
  * cherokee 0.6.0b863 w/ iocache - 88 reqs./sec.
  * cherokee 0.6.0b863 w/o iocache - 88 reqs./sec.
@@ -175,4 +179,6 @@ I have included cherokee with both iocaching on and off. The out of the box sett
 TODO: write something here
 
 If you feel I need to supply any more detail about any part of this process, please let me know. I want this test to be as accurate as possible. I also would like to continue using this process to test future releases of each software and ultimately help improve them. I am a Cherokee developer, but if I notice anything that would help other webservers I am more than happy to let that community know.
+
+
 
